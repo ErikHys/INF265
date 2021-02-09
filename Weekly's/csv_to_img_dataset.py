@@ -16,7 +16,7 @@ class CsvImgSet:
 
 
 def save_image(i, img, path, f):
-    print(type(img))
+    # print(type(img))
     img = Image.fromarray(img, 'L')
     img.save(path + str(i) + '/' + str(f) + '.png')
 
